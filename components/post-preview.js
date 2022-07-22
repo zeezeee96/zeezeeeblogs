@@ -3,7 +3,7 @@ import Avatar from "../components/avatar";
 import DateComponent from "../components/date";
 import CoverImage from "./cover-image";
 
-export default function PostPreview({ title, date, excerpt, slug }) {
+export default function PostPreview({ title, date, excerpt, slug, author }) {
   return (
     <div>
       <div className="mb-5">
